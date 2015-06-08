@@ -2,3 +2,4 @@ MDROOT = $(shell stat -f%N "/Applications/Xamarin Studio.app" 2>/dev/null || ech
 MDROOT_ESCAPED = $(shell echo "$(MDROOT)" | sed 's| |\\ |g')
 MDTOOL = $(MDROOT)/Contents/MacOS/mdtool
 vcbcxbxbxv
+rgsds
